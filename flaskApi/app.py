@@ -46,9 +46,9 @@ def postJson():
         items.reverse()
         items = [(k, v) for v, k in items]
 
-        '''ans = {
+        ans = {
                 'answer': items
-        }'''
+        }
 
         '''for (wrd, cnt) in items:
             ans = {
@@ -56,7 +56,7 @@ def postJson():
                 'cnt': cnt
             }'''
 
-        return "Post OK!!!"
+        return ans
 
     elif request.method == 'GET':
         return 'ok!'
