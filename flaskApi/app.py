@@ -56,7 +56,7 @@ def postJson():
                 'cnt': cnt
             }'''
 
-        return "POST OK!!!"
+        return "成功!!!"
 
     elif request.method == 'GET':
         return 'ok!'
