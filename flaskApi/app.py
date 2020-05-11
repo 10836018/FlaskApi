@@ -46,14 +46,14 @@ def postJson():
         items.reverse()
         items = [(k, v) for v, k in items]
 
-        '''ans = {
+        ans = {
                 'answer': items
-        }'''
+        }
 
-        for (wrd, cnt) in items:
+        '''for (wrd, cnt) in items:
             ans = {
                 'answer': wrd,
-            }
+            }'''
 
         return ans
 
